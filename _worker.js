@@ -730,7 +730,7 @@ const mainPage = `
             <div class="tips-content">
                 <h3 data-i18n="tips_getting_started">Getting Started</h3>
                 <ul>
-                    <li data-i18n="tips_item_1">Enter a valid website URL in the input box above and click "Go" to visit.</li>
+                    <li data-i18n="tips_item_1">Enter a valid website URL in the input box above and click 'Go' to visit.</li>
                     <li data-i18n="tips_item_2">Click on a popular website card for quick access.</li>
                     <li data-i18n="tips_item_3">Avoid logging into sensitive accounts (e.g., banking or email) while using this proxy.</li>
                 </ul>
