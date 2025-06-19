@@ -39,13 +39,13 @@ OpenWeb 代理是一个基于 Cloudflare Workers 的免费开源网页代理服�
 
 1. **Fork the Repository**:
 
-   - Fork this repository to your GitHub account: https://github.com/your-username/openweb-proxy.
+   - Fork this repository to your GitHub account: https://github.com/your-username/openweb.
 
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/openweb-proxy.git
-   cd openweb-proxy
+   git clone https://github.com/your-username/openweb.git
+   cd openweb
    ```
 
 3. **Install Wrangler**:
@@ -94,13 +94,13 @@ OpenWeb 代理是一个基于 Cloudflare Workers 的免费开源网页代理服�
 
 1. **Fork 仓库**：
 
-   - 将此仓库 fork 到你的 GitHub 账户：https://github.com/your-username/openweb-proxy。
+   - 将此仓库 fork 到你的 GitHub 账户：https://github.com/your-username/openweb。
 
 2. **克隆仓库**：
 
    ```bash
-   git clone https://github.com/your-username/openweb-proxy.git
-   cd openweb-proxy
+   git clone https://github.com/your-username/openweb.git
+   cd openweb
    ```
 
 3. **安装 Wrangler**：
