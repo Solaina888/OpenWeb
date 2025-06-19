@@ -776,7 +776,7 @@ const mainPage = `
                 popular_title: "Popular Websites",
                 tips_title: "How to Use OpenWeb Proxy",
                 tips_getting_started: "Getting Started",
-                tips_item_1: "Enter a valid website URL in the input box above and click \"Go\" to visit.",
+                tips_item_1: "Enter a valid website URL in the input box above and click 'Go' to visit.",
                 tips_item_2: "Click on a popular website card for quick access.",
                 tips_item_3: "Avoid logging into sensitive accounts (e.g., banking or email) while using this proxy.",
                 tips_why_use: "Why Use OpenWeb Proxy?",
