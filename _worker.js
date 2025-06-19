@@ -688,37 +688,21 @@ const mainPage = `
         <div class="container">
             <h2 data-i18n="popular_title">Popular Websites</h2>
             <div class="card-grid" id="cardGrid">
-                <div class="card" onclick="openSite('https://example.com/google.com')" data-category="search">
-                    <img src="https://www.google.com/favicon.ico" alt="Google">
-                    <h4>Google</h4>
-                </div>
-                <div class="card" onclick="openSite('https://example.com/bing.com')" data-category="search ai">
+                <div class="card" onclick="openSite('/bing.com')" data-category="search ai">
                     <img src="https://www.bing.com/favicon.ico" alt="Bing">
                     <h4>Bing</h4>
                 </div>
-                <div class="card" onclick="openSite('https://example.com/youtube.com')" data-category="video">
-                    <img src="https://www.youtube.com/favicon.ico" alt="YouTube">
-                    <h4>YouTube</h4>
+                <div class="card" onclick="openSite('/yandex.com')" data-category="search">
+                    <img src="https://www.yandex.com/favicon.ico" alt="Yandex">
+                    <h4>Yandex</h4>
                 </div>
-                <div class="card" onclick="openSite('https://example.com/twitter.com')" data-category="social">
-                    <img src="https://www.twitter.com/favicon.ico" alt="X/Twitter">
-                    <h4>X / Twitter</h4>
-                </div>
-                <div class="card" onclick="openSite('https://example.com/wikipedia.org')" data-category="education">
+                <div class="card" onclick="openSite('/wikipedia.org')" data-category="education">
                     <img src="https://www.wikipedia.org/static/favicon/wikipedia.ico" alt="Wikipedia">
                     <h4>Wikipedia</h4>
                 </div>
-                <div class="card" onclick="openSite('https://example.com/reddit.com')" data-category="social">
+                <div class="card" onclick="openSite('/reddit.com')" data-category="social">
                     <img src="https://www.reddit.com/favicon.ico" alt="Reddit">
                     <h4>Reddit</h4>
-                </div>
-                <div class="card" onclick="openSite('https://example.com/netflix.com')" data-category="entertainment">
-                    <img src="https://www.netflix.com/favicon.ico" alt="Netflix">
-                    <h4>Netflix</h4>
-                </div>
-                <div class="card" onclick="openSite('https://example.com/perplexity.ai')" data-category="ai">
-                    <img src="https://www.perplexity.ai/favicon.ico" alt="Perplexity">
-                    <h4>Perplexity</h4>
                 </div>
             </div>
         </div>
@@ -907,14 +891,6 @@ const mainPage = `
                 }
             }
 
-            function openSite(url) {
-                document.querySelector('.loader').style.display = 'block';
-                setTimeout(() => {
-                    window.open(url, '_blank');
-                    document.querySelector('.loader').style.display = 'none';
-                }, 1000);
-            }
-
             const fadeInElements = document.querySelectorAll('.fade-in');
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -925,6 +901,14 @@ const mainPage = `
             }, { threshold: 0.1 });
             fadeInElements.forEach(el => observer.observe(el));
         });
+        function openSite(path) {
+            document.querySelector('.loader').style.display = 'block';
+            setTimeout(() => {
+                const baseUrl = window.location.origin;
+                window.open(baseUrl + path, '_blank');
+                document.querySelector('.loader').style.display = 'none';
+            }, 1000);
+        }
     </script>
 </body>
 </html>
