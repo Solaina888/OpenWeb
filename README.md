@@ -1,4 +1,4 @@
-# OpenWeb Proxy
+# OpenWeb Proxy :rocket:
 
 OpenWeb Proxy is a free, open-source web proxy service built on Cloudflare Workers. It allows users to bypass network restrictions and access the global internet :earth_americas: securely and anonymously. With a modern, business-friendly interface, it supports bilingual (English and Chinese) navigation and is designed for easy deployment and customization. :fire:
 
