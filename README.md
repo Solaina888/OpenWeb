@@ -1,8 +1,12 @@
 # OpenWeb Proxy
 
-OpenWeb Proxy is a free, open-source web proxy service built on Cloudflare Workers. It allows users to bypass network restrictions and access the internet securely and anonymously. With a modern, business-friendly interface, it supports bilingual (English and Chinese) navigation and is designed for easy deployment and customization.
+OpenWeb Proxy is a free, open-source web proxy service built on Cloudflare Workers. It allows users to bypass network restrictions and access the global internet :earth_americas: securely and anonymously. With a modern, business-friendly interface, it supports bilingual (English and Chinese) navigation and is designed for easy deployment and customization. :fire:
 
-OpenWeb 代理是一个基于 Cloudflare Workers 的免费开源网页代理服务。它帮助用户绕过网络限制，安全匿名地访问互联网。项目采用现代化、商务友好的界面，支持中英文双语导航，易于部署和定制。
+OpenWeb 代理是一个基于 Cloudflare Workers 的免费开源网页代理服务。它帮助用户绕过网络限制，安全匿名地访问互联网 :earth_americas: 。项目采用现代化、商务友好的界面，支持中英文双语导航，易于部署和定制。 :fire:
+
+:sparkles: For detailed tutorials, please search for "Dynaverse Lab" on bilibili. :sparkles:
+
+:sparkles: 详细教程请在bilibili搜索“Dynaverse实验室” :sparkles:
 
 ## Features
 
@@ -11,14 +15,15 @@ OpenWeb 代理是一个基于 Cloudflare Workers 的免费开源网页代理服�
 - **Bilingual Interface**: Supports English and Chinese with automatic language detection and user preference storage via cookies.
 - **Modern UI**: Business-bright design with responsive layout for desktop and mobile devices.
 - **Popular Sites**: Quick access to popular websites like Google, YouTube, and Wikipedia.
-- **Password Protection**: Optional password-based access control for enhanced security.
+- **Password Protection** :lock: : Optional password-based access control for enhanced security.
 - **Open Source**: Licensed under MIT, encouraging community contributions and forks.
 - **Lightweight Deployment**: Runs on Cloudflare Workers, requiring minimal setup.
+- ----------------------------------
 - **安全代理访问**：将请求转发到目标网站，重写 URL 确保无缝导航。
 - **双语界面**：支持英文和中文，自动检测语言并通过 cookie 存储用户偏好。
 - **现代化界面**：商务明亮的设计，支持桌面和移动设备的响应式布局。
 - **热门网站**：快速访问 Google、YouTube、Wikipedia 等热门网站。
-- **密码保护**：可选的密码访问控制，增强安全性。
+- **密码保护** :lock: ：可选的密码访问控制，增强安全性。
 - **开源**：采用 MIT 许可证，鼓励社区贡献和 fork。
 - **轻量级部署**：基于 Cloudflare Workers，设置简单。
 
