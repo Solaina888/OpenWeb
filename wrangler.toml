@@ -1,6 +1,0 @@
-name = "openweb"
-type = "javascript"
-
-main = "_worker.js"
-
-compatibility_date = "2025-06-19"
