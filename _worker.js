@@ -785,7 +785,7 @@ const mainPage = `
                 tips_item_6: "Lightweight and easy to deploy.",
                 disclaimer_title: "Disclaimer",
                 disclaimer_text: "OpenWeb Proxy is provided \"as is\" without any warranties. The authors and contributors are not responsible for any damages, data loss, or legal consequences arising from the use of this service. Users are solely responsible for ensuring compliance with local laws and regulations. Avoid using this proxy for illegal activities or accessing sensitive accounts, as it may expose your data to risks. Always verify the authenticity of websites accessed through this proxy.",
-                footer_text: "Created by <a href=\"https://github.com/your-username\" target=\"_blank\">Your Name</a> | <a href=\"https://github.com/your-username/openweb-proxy\" target=\"_blank\">Fork on GitHub</a> | Licensed under MIT",
+                footer_text: "Created by <a href=\"https://github.com/Solaina888\" target=\"_blank\">Solaina</a> | <a href=\"https://github.com/Solaina888/openweb-proxy\" target=\"_blank\">Fork on GitHub</a> | Licensed under MIT",
                 error_invalid_url: "Invalid URL",
                 error_invalid_url_text: "Please enter a valid website address (e.g., https://example.com)"
             },
@@ -807,7 +807,7 @@ const mainPage = `
                 tips_item_6: "轻量级，易于部署。",
                 disclaimer_title: "免责声明",
                 disclaimer_text: "OpenWeb 代理按“原样”提供，不提供任何担保。作者及贡献者对因使用本服务而导致的任何损害、数据丢失或法律后果不承担责任。用户需自行确保遵守当地法律法规。禁止使用此代理进行非法活动或访问敏感账户，因其可能导致数据风险。始终验证通过此代理访问的网站的真实性。",
-                footer_text: "由 <a href=\"https://github.com/your-username\" target=\"_blank\">Your Name</a> 创建 | <a href=\"https://github.com/your-username/openweb-proxy\" target=\"_blank\">在 GitHub 上 Fork</a> | MIT 许可",
+                footer_text: "由 <a href=\"https://github.com/Solaina888\" target=\"_blank\">Solaina</a> 创建 | <a href=\"https://github.com/Solaina888/openweb-proxy\" target=\"_blank\">在 GitHub 上 Fork</a> | MIT 许可",
                 error_invalid_url: "无效网址",
                 error_invalid_url_text: "请输入有效的网站地址（例如，https://example.com）"
             }
